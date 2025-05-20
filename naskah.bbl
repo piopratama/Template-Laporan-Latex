@@ -1,0 +1,15 @@
+\begin{thebibliography}{}
+
+\bibitem[Goldberg, 1989]{goldberg1989}
+Goldberg, D.~E. (1989).
+\newblock {\em Genetic Algorithms in Search, Optimization, and Machine
+  Learning}.
+\newblock Addison-Wesley.
+
+\bibitem[Vaswani et~al., 2017]{vaswani2017}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  Kaiser, {\L}., and Polosukhin, I. (2017).
+\newblock Attention is all you need.
+\newblock {\em Advances in Neural Information Processing Systems}, 30.
+
+\end{thebibliography}

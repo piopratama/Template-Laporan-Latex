@@ -1,0 +1,64 @@
+\setcounter{chapter}{2}
+\customchapter{BAB II}{TINJAUAN PUSTAKA}
+\thispagestyle{plain}
+\sloppy
+
+
+\section{Kecerdasan Buatan}
+
+Kecerdasan Buatan (Artificial Intelligence/AI) merupakan bidang dalam ilmu komputer yang berfokus pada pengembangan sistem yang mampu melakukan tugas-tugas yang membutuhkan kecerdasan manusia, seperti pembelajaran, penalaran, dan pengambilan keputusan. Teknologi AI telah diterapkan dalam berbagai bidang, seperti pengenalan suara, pengolahan bahasa alami, sistem rekomendasi, hingga kendaraan otonom.
+
+\section{Algoritma Genetika}
+
+Algoritma genetika (AG) adalah algoritma evolusioner yang menggunakan prinsip seleksi alam untuk mencari solusi optimal dalam ruang pencarian yang kompleks. AG dapat digunakan dalam berbagai bidang optimasi, baik numerik maupun kombinatorik.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{gambar/genetika.png}
+    \caption{Ilustrasi mekanisme dasar Algoritma Genetika}
+    \label{fig:genetika}
+    \vspace{0em}
+    \sumbergambar{Sumber: Yang, J. dan Xing, C. (2019). \textit{Data Source Selection Based on an Improved Greedy Genetic Algorithm}. \textit{Symmetry}, 11(2), 273. Diakses dari: \url{https://doi.org/10.3390/sym11020273}}
+\end{figure}
+
+\vspace{-1em}
+Pada Gambar \ref{fig:genetika}, dapat dilihat proses seleksi, crossover, dan mutasi yang membentuk dasar dari algoritma ini. Mekanisme tersebut diulang-ulang untuk mendapatkan individu terbaik yang memenuhi kriteria fitness tertentu.
+
+\section{Arsitektur Transformer}
+
+Transformer merupakan arsitektur deep learning yang diperkenalkan oleh Vaswani et al. (2017)\footnote{Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... \& Polosukhin, I. (2017). \textit{Attention is All You Need}. Advances in Neural Information Processing Systems, 30.}, yang mengandalkan mekanisme \textit{self-attention} untuk memproses data sekuensial. Tidak seperti RNN dan LSTM yang bergantung pada urutan data secara bertahap, Transformer mampu memproses seluruh sekuens secara paralel, sehingga jauh lebih efisien.
+
+\begin{table}[H]
+    \centering
+    \caption{Perbandingan Arsitektur RNN, LSTM, dan Transformer}
+    \label{tab:perbandingan}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Aspek} & \textbf{RNN} & \textbf{LSTM} & \textbf{Transformer} \\
+        \hline
+        Paralelisme & Rendah & Rendah & Tinggi \\
+        \hline
+        Urutan Data & Bergantung & Bergantung & Independen \\
+        \hline
+        Efisiensi & Cukup & Baik & Sangat Baik \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Dari Tabel \ref{tab:perbandingan}, terlihat bahwa Transformer memiliki keunggulan dalam hal efisiensi dan kemampuan memproses data secara paralel, menjadikannya pilihan utama dalam berbagai aplikasi Natural Language Processing (NLP) modern.
+
+\subsection{Komponen Utama dalam Arsitektur Transformer}
+
+Transformer terdiri dari dua blok utama, yaitu encoder dan decoder. Setiap blok terdiri dari beberapa layer yang berisi komponen seperti multi-head self-attention dan feedforward neural networks.
+
+\subsubsection{Multi-Head Attention}
+
+Komponen ini memungkinkan model untuk mempelajari hubungan antar token dalam urutan input dari berbagai representasi sub-ruang secara paralel.
+
+\subsubsection{Positional Encoding}
+
+Karena Transformer tidak memproses data secara sekuensial seperti RNN, maka diperlukan positional encoding untuk memberi informasi posisi urutan kepada model.
+
+\subsection{Keunggulan Transformer dibandingkan RNN dan LSTM}
+
+Transformer mengatasi keterbatasan RNN dan LSTM dalam hal ketergantungan jangka panjang, waktu pelatihan yang lambat, dan ketidakmampuan memanfaatkan paralelisme secara penuh pada GPU.

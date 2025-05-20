@@ -1,0 +1,88 @@
+\setcounter{chapter}{1}
+\customchapter{BAB I}{PENDAHULUAN}
+\thispagestyle{plain}
+\sloppy
+
+\addcontentsline{toc}{chapter}{BAB I PENDAHULUAN}
+\setcounter{section}{0}
+\renewcommand{\thesection}{1.\arabic{section}}
+
+\section{Latar Belakang}
+
+Perkembangan teknologi kecerdasan buatan (Artificial Intelligence/AI) mengalami kemajuan pesat dalam beberapa dekade terakhir. AI telah diterapkan dalam berbagai bidang seperti pengolahan bahasa alami, pengenalan pola, optimisasi, dan pengambilan keputusan. Dua pendekatan yang semakin menonjol dalam pengembangan AI modern adalah algoritma genetika dan arsitektur transformer.
+
+Algoritma genetika (AG) merupakan teknik pencarian dan optimisasi berbasis prinsip evolusi biologis seperti seleksi alam, mutasi, dan rekombinasi \cite{goldberg1989}\footnote{AG termasuk dalam keluarga algoritma evolusioner yang meniru proses evolusi alam untuk menemukan solusi optimal.}. Teknik ini telah terbukti efektif dalam menyelesaikan berbagai masalah komputasi kompleks yang sulit diselesaikan dengan pendekatan konvensional, terutama dalam pencarian solusi global pada ruang solusi yang luas dan tidak terstruktur.
+
+Di sisi lain, transformer adalah arsitektur model deep learning yang diperkenalkan oleh Vaswani et al.\ \cite{vaswani2017}\footnote{Arsitektur ini menjadi fondasi model NLP besar seperti BERT dan GPT, yang secara signifikan meningkatkan akurasi dan efisiensi dalam berbagai tugas pemrosesan bahasa.} dan merevolusi bidang pemrosesan bahasa alami. Transformer mengandalkan mekanisme self-attention yang memungkinkan model memahami konteks data secara lebih efisien tanpa ketergantungan sekuensial seperti pada RNN atau LSTM.
+
+Menggabungkan algoritma genetika dan transformer dalam satu kerangka kerja menawarkan potensi besar. AG dapat digunakan untuk mengoptimalkan parameter atau arsitektur model transformer secara evolusioner, sehingga menghasilkan model yang lebih efisien dan adaptif terhadap permasalahan tertentu. Dengan demikian, penelitian ini menjadi relevan dalam mendorong efisiensi dan efektivitas sistem AI masa kini.
+
+\section{Rumusan Masalah}
+
+Berdasarkan latar belakang tersebut, rumusan masalah dalam penelitian ini adalah sebagai berikut:
+\begin{enumerate}[label=\arabic*., 
+    leftmargin=3em, 
+    labelwidth=1.5em, 
+    labelsep=0em, 
+    itemindent=0pt, 
+    listparindent=1.5em, 
+    align=left, 
+    itemsep=0em,
+    topsep=0pt, 
+    partopsep=0pt]
+    \item Bagaimana algoritma genetika dapat digunakan untuk mengoptimalkan performa model berbasis transformer?
+    \item Apa saja parameter atau struktur dalam model transformer yang paling efektif untuk dioptimalkan menggunakan algoritma genetika?
+    \item Sejauh mana kombinasi antara algoritma genetika dan arsitektur transformer meningkatkan performa dalam suatu studi kasus tertentu?
+\end{enumerate}
+
+\section{Tujuan Penelitian}
+
+Penelitian ini bertujuan untuk:
+\begin{enumerate}[label=\arabic*., 
+    leftmargin=3em, 
+    labelwidth=1.5em, 
+    labelsep=0em, 
+    itemindent=0pt, 
+    listparindent=1.5em, 
+    align=left, 
+    itemsep=0em,
+    topsep=0pt, 
+    partopsep=0pt]
+    \item Menganalisis peran algoritma genetika dalam optimisasi model transformer.
+    \item Mengembangkan dan mengimplementasikan pendekatan hybrid antara algoritma genetika dan transformer.
+    \item Mengevaluasi performa model yang dihasilkan dari kombinasi kedua metode tersebut pada studi kasus tertentu.
+\end{enumerate}
+
+\section{Manfaat Penelitian}
+
+Adapun manfaat yang diharapkan dari penelitian ini, antara lain:
+
+\textbf{Manfaat Teoritis}
+\begin{enumerate}[label=\arabic*., 
+    leftmargin=5em, 
+    labelwidth=1.5em, 
+    labelsep=0.5em, 
+    itemindent=0pt, 
+    listparindent=0pt, 
+    align=left, 
+    itemsep=0em,
+    topsep=0pt, 
+    partopsep=0pt]
+    \item Menambah khazanah ilmu pengetahuan dalam bidang kecerdasan buatan, khususnya pada penggabungan metode optimisasi evolusioner dan arsitektur deep learning.
+    \item Memberikan kontribusi dalam pengembangan pendekatan hybrid AI yang adaptif dan efisien.
+\end{enumerate}
+
+\textbf{Manfaat Praktis}
+\begin{enumerate}[label=\arabic*., 
+    leftmargin=5em, 
+    labelwidth=1.5em, 
+    labelsep=0.5em, 
+    itemindent=0pt, 
+    listparindent=0pt, 
+    align=left, 
+    itemsep=0em,
+    topsep=0pt, 
+    partopsep=0pt]
+    \item Menyediakan solusi alternatif bagi pengembang sistem AI untuk mengoptimalkan model transformer.
+    \item Dapat diterapkan pada berbagai permasalahan nyata seperti klasifikasi teks, prediksi, dan optimasi tugas-tugas berbasis data besar.
+\end{enumerate}
