@@ -72,7 +72,7 @@ Pratama, I. W. P. (2026). Skripsi Dummy LaTeX – Contoh Dokumen Akademik (Versi
 
 ## Lisensi
 
-Dokumen ini dilisensikan dengan Creative Commons Attribution 4.0 International (CC BY 4.0).
+Dokumen ini dilisensikan dengan Creative Commons Legal Code CC0 1.0 Universal.
 
 Anda bebas membagikan dan menyesuaikan materi dengan atribusi kepada:
 
